@@ -1,0 +1,388 @@
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./assets/entries/admin-page/components/settings/style.css ***!
+  \*************************************************************************************************************************************************************************************************************/
+.wmd-settings *,
+.wmd-settings *:before,
+.wmd-settings *:after {
+	box-sizing: border-box;
+}
+
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./assets/entries/admin-page/components/header/style.css ***!
+  \***********************************************************************************************************************************************************************************************************/
+.wmd-header {
+	text-align: center;
+	margin-bottom: 1em;
+	background: #fff;
+	border-bottom: 1px solid #e2e4e7;
+}
+
+.wmd-header__title {
+	margin: .5em 0 2em 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.wmd-header__title h1 {
+	display: inline-block;
+	font-weight: 600;
+	font-size: 23px;
+	line-height: 1.3;
+	margin: 0 .25em;
+}
+
+.wmd-header__title-found-count {
+	background: #555d66;
+	color: #ffffff;
+	border-radius: 50%;
+	margin: 0 .25em;
+	display: block;
+	width: 32px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+}
+
+.wmd-header__title-found-count:empty {
+	visibility: hidden;
+}
+
+.wmd-header__actions {
+	display: flex;
+	justify-content: space-between;
+	padding: 1em 1em 0 1em;
+}
+
+.wmd-header__actions-container--left {
+	display: flex;
+}
+
+.wmd-header__actions-container--right {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.wmd-header__actions--settings {
+	flex-direction: row-reverse;
+}
+
+.wmd-header__actions--settings .dashicon {
+	margin-right: 0 !important;
+	margin-left: 4px;
+}
+
+.wmd-settings {
+	padding: 1em;
+	text-align: left;
+	width: 350px;
+}
+
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./assets/entries/admin-page/components/sent-at/style.css ***!
+  \************************************************************************************************************************************************************************************************************/
+.wmd-sent-at {
+	color: #6c7781;
+}
+
+/*!********************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./assets/entries/admin-page/components/email-list-item/style.css ***!
+  \********************************************************************************************************************************************************************************************************************/
+.wmd-email-list-item {
+	background: white;
+	padding: 1em;
+	margin-bottom: 1em;
+	border: 1px solid #e2e4e7;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: min-content min-content;
+	grid-row-gap: 1em;
+}
+
+.wmd-email-list-item__subject {
+	margin: 0;
+	grid-column: 1 / 11;
+	grid-row: 1;
+}
+
+.wmd-email-list-item__subject .components-button {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.wmd-email-list-item .wmd-sent-at {
+	grid-column: 11 / 13;
+	grid-row: 1;
+	text-align: right;
+}
+
+.wmd-email-list-item__to {
+	margin: 0;
+	grid-column: 1 / 7;
+	grid-row: 2;
+}
+
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./assets/entries/admin-page/components/search/style.css ***!
+  \***********************************************************************************************************************************************************************************************************/
+.wmd-search {
+	display: flex;
+	align-items: stretch;
+}
+
+.wmd-search > :first-child {
+	margin: 0 .25em 0 0;
+}
+
+.wmd-search > :last-child {
+	margin: 0 0 0 .25em;
+}
+
+.wmd-search > * {
+	margin: 0 .25em;
+}
+
+.wmd-search__control {
+	margin-right: 1em;
+	flex-grow: 1;
+}
+
+.wmd-search__control .components-base-control__field {
+	margin-bottom: 0;
+}
+
+.wmd-search .components-text-control__input {
+	height: 36px;
+}
+
+.wmd-search__trigger {
+	box-shadow: inset 0 0 0 1px #555d66,inset 0 0 0 2px #fff;
+}
+
+/*!******************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./assets/entries/admin-page/components/resend-action/style.css ***!
+  \******************************************************************************************************************************************************************************************************************/
+.wmd-resend *,
+.wmd-resend *:before,
+.wmd-resend *:after {
+	box-sizing: border-box;
+}
+
+.wmd-resend {
+	min-width: 350px;
+	padding: 1em;
+}
+
+/*!*******************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./assets/entries/admin-page/components/detail-actions/style.css ***!
+  \*******************************************************************************************************************************************************************************************************************/
+.wmd-detail-actions {
+	display: flex;
+	justify-content: space-between;
+}
+
+.wmd-detail-actions__container--left {
+	display: flex;
+}
+
+.wmd-detail-actions__container--right {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.wmd-detail-actions--trash,
+.wmd-detail-actions--download,
+.wmd-detail-actions--send {
+	flex-direction: row-reverse;
+}
+
+.wmd-detail-actions--trash .dashicon,
+.wmd-detail-actions--download .dashicon,
+.wmd-detail-actions--send .dashicon {
+	margin-right: 0 !important;
+	margin-left: 4px;
+}
+
+.wmd-detail-actions .components-button.is-link {
+	text-decoration: none;
+}
+
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./assets/entries/admin-page/components/email-recipients/style.css ***!
+  \*********************************************************************************************************************************************************************************************************************/
+.wmd-email-recipients {
+	display: grid;
+	grid-template: auto / min-content 1fr;
+	grid-gap: .5em;
+}
+
+.wmd-email-recipients dd {
+	margin: 0;
+}
+
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./assets/entries/admin-page/components/message/style.css ***!
+  \************************************************************************************************************************************************************************************************************/
+.components-tab-panel__tabs button {
+	background: transparent;
+	border: none;
+	border-radius: 0;
+	cursor: pointer;
+	padding: 10px 15px;
+	margin-left: 0;
+	font-weight: 400;
+	outline-offset: -1px;
+}
+
+.components-tab-panel__tabs button:focus {
+	color: #191e23;
+	outline: 1px solid #6c7781;
+	box-shadow: none;
+}
+
+.wmd-message-tab--text {
+	background: white;
+	padding: 1.4em;
+	border: 1px solid #e2e4e7;
+	min-height: 150px;
+}
+
+.wmd-message-tab--text pre {
+	margin: 0;
+	overflow-x: auto;
+}
+
+.wmd-message-tab--html iframe {
+	border: 1px solid #e2e4e7;
+}
+
+/*!***************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./assets/entries/admin-page/components/email-main/style.css ***!
+  \***************************************************************************************************************************************************************************************************************/
+.wmd-email-main-header {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(2, min-content);
+}
+
+.wmd-email-main-header__subject {
+	margin: 0;
+	grid-column: 1 / 11;
+	grid-row: 1;
+}
+
+.wmd-email-main-header__sent-at {
+	grid-column: 11 / 13;
+	grid-row: 1;
+	text-align: right;
+}
+
+.wmd-email-main-header__recipients {
+	grid-column: 1 / 9;
+	grid-row: 2;
+}
+
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./assets/entries/admin-page/components/sidebar-items/errors/style.css ***!
+  \*************************************************************************************************************************************************************************************************************************/
+.wmd-email-sidebar-item--errors .components-notice__content {
+	color: #1d2327;
+}
+
+.wmd-email-sidebar-item--errors .components-notice + .components-notice {
+	margin-top: 0.5em;
+}
+
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./assets/entries/admin-page/components/sidebar-items/headers/style.css ***!
+  \**************************************************************************************************************************************************************************************************************************/
+.wmd-email-sidebar-item--headers dl {
+	margin: 0;
+}
+
+.wmd-email-sidebar-item--headers dl:after {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+.wmd-email-sidebar-item--headers dt,
+.wmd-email-sidebar-item--headers dd {
+	float: left;
+}
+
+.wmd-email-sidebar-item--headers dt {
+	margin-right: 5px;
+	clear: left;
+}
+
+.wmd-email-sidebar-item--headers dd {
+	margin: 0;
+}
+
+/*!******************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./assets/entries/admin-page/components/email-sidebar/style.css ***!
+  \******************************************************************************************************************************************************************************************************************/
+.wmd-email-sidebar-item {
+	color: #606a73;
+	margin-bottom: 2em;
+}
+
+.wmd-email-sidebar-item:last-child {
+	margin-bottom: 0;
+}
+
+.wmd-email-sidebar-item h3 {
+	margin: 0 0 .25em 0;
+	color: #555d66;
+}
+
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./assets/entries/admin-page/components/detail/style.css ***!
+  \***********************************************************************************************************************************************************************************************************/
+.wmd-detail-body {
+	max-width: 1100px;
+	margin: 1em auto 0;
+}
+
+.wmd-email-main {
+	float: left;
+	width: 100%;
+	max-width: 850px;
+	box-sizing: border-box;
+	padding-right: 2em;
+}
+
+.wmd-email-sidebar {
+	float: left;
+	width: 100%;
+	max-width: 250px;
+	box-sizing: border-box;
+}
+
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./assets/entries/admin-page/style.css ***!
+  \*****************************************************************************************************************************************************************************************/
+#wpcontent,
+.auto-fold #wpcontent {
+	padding-left: 0;
+}
+
+.wmd-body {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 1em;
+}
+
+.wmd-body--detail {
+	max-width: none;
+}
+
+.components-button.has-icon.is-link:hover {
+	background-color: transparent !important;
+	color: #00a0d2 !important;
+	box-shadow: none !important;
+}
+
+
+/*# sourceMappingURL=style-admin-page.css.map*/

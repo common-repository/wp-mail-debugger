@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'timothybjacobs/wp-mail-debugger',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => 'f3d88473b317f4c8e63583496276b6a53bf00ed9',
+        'type' => 'wp-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'pimple/pimple' => array(
+            'pretty_version' => 'v3.5.0',
+            'version' => '3.5.0.0',
+            'reference' => 'a94b3a4db7fb774b3d78dad2315ddc07629e1bed',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../pimple/pimple',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'psr/container' => array(
+            'pretty_version' => '1.1.2',
+            'version' => '1.1.2.0',
+            'reference' => '513e0666f7216c7459170d56df27dfcefe1689ea',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../psr/container',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'timothybjacobs/wp-mail-debugger' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'f3d88473b317f4c8e63583496276b6a53bf00ed9',
+            'type' => 'wp-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
